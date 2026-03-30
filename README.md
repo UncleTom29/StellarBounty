@@ -9,7 +9,7 @@ earn BNT tokens via inter-contract mint calls.
 ---
 
 ## 🌐 Live Demo
-> https://stellarbounty.vercel.app
+> https://stellar-bounty.vercel.app
 
 ---
 
@@ -68,6 +68,15 @@ See full architecture document:
 | BNT Token       | `CD4TM7ET64UZAQZLHO5RHCWOOERKTGGXZYI67E7OLGCP4AA4UGBTOLGK`             |
 
 
+## 📜 User Addresses (Testnet)
+
+GAPF4TQWW5H732ELYP664SAXTCS6CNOGOOAQAQVG2KZ76UEFNXW6KW44
+GAL7YYKYHIIUVKKCDGQYZGEMAAWSSJDU2WRMLRH567TLQUTKDAMWZX5X
+GD7TSPUQF34DMTROCP2GDOCQLFRWL6WT3EB3F4TU5P74XTPRXW7OXTYW
+GC4EHREUIAODIXCHVZJVBHGOR3WSPFHDHXAEN7QPYPFQZU6UXIL2PPWN
+GBZSMRLADRMBNDFXJTOELSON6TMSGDOYAIDNIDRIJ2HHYXNGXPT5ZLAJ
+GBPCVE6FC3LN7W54EUNDNT727CXE5YX6YAPR5FQYCWOXXT2AYWUL64GS
+
 
 ## ⚙️ Setup
 ```bash
@@ -121,29 +130,10 @@ npm run build
 npx vercel --prod
 ```
 
-Set these GitHub secrets for CI/CD auto-deploy:
-- `VERCEL_TOKEN`
-- `VERCEL_ORG_ID`
-- `VERCEL_PROJECT_ID`
-
----
-
-## 📸 Screenshots
-
-### Mobile View
-> Add screenshot here
-
-### CI/CD Pipeline
-> Add GitHub Actions screenshot here
-
-### Bounty Approval TX
-> Add Stellar Expert TX screenshot here
----
 
 ## 📁 Project Structure
 ```
 stellarbounty/
-├── .github/workflows/ci.yml   # CI/CD pipeline
 ├── contract/
 │   ├── token/src/lib.rs       # BNT token contract
 │   └── bounty/src/lib.rs      # Bounty escrow contract
@@ -169,14 +159,6 @@ stellarbounty/
 └── README.md
 ```
 
----
-
-## 🤝 Contributing
-
-1. Fork the repo
-2. Create branch: `git checkout -b feat/your-feature`
-3. Commit: `git commit -m "feat: your feature"`
-4. Push and open a PR
 
 ---
 
